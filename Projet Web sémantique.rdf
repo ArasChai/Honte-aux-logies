@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10/"
+     xml:base="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-10="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#resultsIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#resultsIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Analyses"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Données"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#uses">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Analyses"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Ressources_matérielles_utilisées"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Altérations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Altérations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dégradant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Analyses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Analyses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#NonDégradant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Assemblage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Assemblage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Caractéristiques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Caractéristiques"/>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Conservation_préventive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Conservation_préventive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Consolidation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Consolidation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dimensions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dimensions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Informations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Données -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Données"/>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dégradant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dégradant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Événements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Désinfection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Désinfection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Facteurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Facteurs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Caractéristiques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Forme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Forme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Informations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Informations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Informations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#InstrumentsAnalyse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#InstrumentsAnalyse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Ressources_matérielles_utilisées"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#InstrumentsDiagnostique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#InstrumentsDiagnostique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Ressources_matérielles_utilisées"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#InstrumentsÉchantillonnage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#InstrumentsÉchantillonnage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Ressources_matérielles_utilisées"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interprétations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interprétations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Données"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#NonDégradant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Maintenance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Matériaux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Matériaux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Informations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Mesures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Mesures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Analyses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#MesuresDonnées -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#MesuresDonnées">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Données"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Nature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Nature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Caractéristiques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Nettoyage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Nettoyage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#NonDégradant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#NonDégradant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Événements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Observations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Observations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Analyses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Origines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Origines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Caractéristiques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Reconstruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Reconstruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Ressources_matérielles_utilisées -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Ressources_matérielles_utilisées"/>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Réhabilitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Réhabilitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Réintégration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Réintégration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Rénovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Rénovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Réparation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Réparation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Spectres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Spectres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Données"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Style -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Style">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Informations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Traitement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Traitement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Échantillonnage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Échantillonnage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Analyses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Études_scientifiques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Études_scientifiques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Analyses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Événements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Événements"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#m1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#m1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#MesuresDonnées"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#obs1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#obs1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Observations"/>
+        <untitled-ontology-10:resultsIn rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#m1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
