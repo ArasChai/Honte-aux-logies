@@ -22,6 +22,60 @@
     
 
 
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourAuteur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourAuteur">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Auteur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourDate">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#DateDeCréation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourDimensions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourDimensions">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dimensions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourForme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourForme">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Forme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourMatériaux -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourMatériaux">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Matériaux"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourStyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#aPourStyle">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Style"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#describes -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#describes">
@@ -99,6 +153,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Auteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Auteur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Informations"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Caractéristiques -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Caractéristiques"/>
@@ -125,6 +187,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Consolidation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Conservation_curative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#DateDeCréation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#DateDeCréation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Informations"/>
     </owl:Class>
     
 
@@ -404,6 +474,136 @@
     
 
 
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Bois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Bois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Matériaux"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Francisco_de_Goya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Francisco_de_Goya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Auteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Fresque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Fresque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Matériaux"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Haute_Renaissance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Haute_Renaissance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Style"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Hokusai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Hokusai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Auteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#LEcoledAthenes -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#LEcoledAthenes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <untitled-ontology-10:aPourAuteur rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Raphael"/>
+        <untitled-ontology-10:aPourDimensions rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#440x770"/>
+        <untitled-ontology-10:aPourMatériaux rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Fresque"/>
+        <untitled-ontology-10:aPourStyle rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Haute_Renaissance"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#LaCréationdAdam -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#LaCréationdAdam">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <untitled-ontology-10:aPourAuteur rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Michel-Ange"/>
+        <untitled-ontology-10:aPourDate rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1512"/>
+        <untitled-ontology-10:aPourStyle rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Haute_Renaissance"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#LaGrandeVagueDeKanagawa -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#LaGrandeVagueDeKanagawa">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <untitled-ontology-10:aPourAuteur rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Hokusai"/>
+        <untitled-ontology-10:aPourDate rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1830"/>
+        <untitled-ontology-10:aPourDimensions rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#25x37"/>
+        <untitled-ontology-10:aPourMatériaux rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Bois"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#LaVictoireDeSamothrace -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#LaVictoireDeSamothrace">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <untitled-ontology-10:aPourDate rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#-200"/>
+        <untitled-ontology-10:aPourDimensions rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#512"/>
+        <untitled-ontology-10:aPourMatériaux rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Marbre"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Marbre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Marbre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Matériaux"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Michel-Ange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Michel-Ange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Auteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Raphael -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Raphael">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Auteur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Romantisme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Romantisme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Style"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#SaturneDévorantUnDeSesFils -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#SaturneDévorantUnDeSesFils">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <untitled-ontology-10:aPourAuteur rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Francisco_de_Goya"/>
+        <untitled-ontology-10:aPourDate rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1823"/>
+        <untitled-ontology-10:aPourDimensions rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#146x83"/>
+        <untitled-ontology-10:aPourStyle rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Romantisme"/>
+    </owl:Thing>
+    
+
+
     <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#m1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#m1">
@@ -417,6 +617,78 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#obs1">
         <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Observations"/>
         <untitled-ontology-10:resultsIn rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#m1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#-200 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#-200">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#DateDeCréation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#146x83 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#146x83">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1512 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1512">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#DateDeCréation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1823 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1823">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#DateDeCréation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1830 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#1830">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#DateDeCréation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#25x37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#25x37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#280x570 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#280x570">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#440x770 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#440x770">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#512 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#512">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e198339l/ontologies/2023/5/untitled-ontology-10#Dimensions"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
